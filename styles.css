@@ -1,0 +1,218 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 4px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 0.7px solid #ffffffab;
+    transition: all 0.5s ease-in-out; /* Use "all" to apply to all properties */
+}
+
+
+
+
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+}
+
+header nav ul li {
+    margin: 0 15px;
+
+}
+
+nav .logo{
+    padding: 0px 0px;
+    height: 90px;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+  
+  }
+
+header nav ul li img {
+    position: fixed;
+    top: 0;
+    right: 4.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 0px 0px;
+  
+  }
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 0px 50px;
+    font-size: 25px;
+
+
+
+
+}
+
+header nav ul li a:hover {
+    color: #18ffa6e8;
+}
+
+
+
+
+.home{
+    width: 100%;
+    height: 120vh;
+    background-image: url('./Images/main8.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about{
+    width: 100%;
+    height: 110vh;
+    background-image: url('./Images/about1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .products{
+    width: 100%;
+    height: 50vh;
+    background-image: url('./Images/products.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .center {
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.team_picture_container {
+    border-radius: 30px;
+    overflow: hidden;
+    width: 100%; /* Set appropriate width */
+    max-width: 310px; /* Ensure responsiveness */
+    text-align: center; /* Center-align the text inside */
+}
+
+.team_foto {
+    width: 100%;
+    height: auto; /* A*/
+    border-radius: 15px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 340px 340px 340px 340px;
+    grid-template-columns: 0.4fr 0.4fr 0.4fr 0.4fr;
+    grid-template-areas:
+        "a1 a2 a3 a4"
+        "b1 b2 b3 b4"
+        "c1 c2 c3 c4";
+}
+
+.color {
+    background-color: #006b4f0a; /* Background color for grid items */
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+main section h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer img {
+    max-width: 100px;
+    margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
