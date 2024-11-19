@@ -89,7 +89,7 @@ header nav ul li a:hover {
 .home{
     width: 100%;
     height: 120vh;
-    background-image: url('./Images/main8.jpg');
+    background-image: url('./Images/product_1.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
